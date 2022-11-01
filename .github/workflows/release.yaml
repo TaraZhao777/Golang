@@ -1,4 +1,4 @@
-name: Release and deploy Todo
+name: Release and deploy GoLang
 
 on:
   push:
