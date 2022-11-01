@@ -3,7 +3,7 @@ name: Release and deploy GoLang
 on:
   push:
     branches:
-    - "release"
+    - "v*.*"
 
 jobs:
   release-and-deploy:
