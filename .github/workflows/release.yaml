@@ -6,6 +6,8 @@ on:
     - "v*.*"
     - "!v*.*-beta"
     - "!v*.*.*"
+    commit:
+    - "#NORUN*"
 
 jobs:
   release-and-deploy:
