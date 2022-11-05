@@ -1,4 +1,4 @@
-name: Release and deploy GoLang
+name: GoLang
 
 on:
   push:
