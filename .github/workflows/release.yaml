@@ -69,7 +69,7 @@ jobs:
                         },
                         {
                             "type": "mrkdwn",
-                            "text": "*Repositary:*\n https://github.com/TaraZhao777/Golang.git"
+                            "text": "*Repositary:*\n ${{ secrets.REPOSITARY_URL}}"
                         }
                     ]
                 },
@@ -86,7 +86,7 @@ jobs:
                     "type": "section",
                     "text": {
                       "type": "mrkdwn",
-                      "text": "<https://golang-production-96ca.up.railway.app/|Open Application>"
+                      "text": "<${{ secrets.RAILWAY_MYAPP }}|Open Application>"
                     }
                 }
             ]
