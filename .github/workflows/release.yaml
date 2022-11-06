@@ -10,8 +10,8 @@ on:
 jobs:
   release-and-deploy:
     runs-on: ubuntu-latest
-    if: "!contanins(github.event.head_commit.message, '#NORUN'"
-    
+    if: "!contains(github.event.head_commit.message, '#NORUN'"
+
     steps:
     - name: Echo the branch name
       run: echo "current branch - ${{ github.ref_name }}"
